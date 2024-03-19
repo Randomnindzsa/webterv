@@ -3,18 +3,20 @@ Body{
 }
 
 .banner {
+	background-image: url("../media/uszoda.jpg");
+	background-repeat: no-repeat;
+
     height: fit-content;
     padding: 10% 0px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+	background-position: center;
     border-bottom: 4px solid black;
 }
 
-.banner a{
-	text-color: red;
-	size: 36;
+.alt_info > a{
+	color: red;
     transition: all 0.3s ease;
 }
 
@@ -22,6 +24,7 @@ Body{
 .banner > h1 {
     animation: come-in-left 1s ease forwards;
     text-align: center;
+	color: red;
 }
 
 .alt_info {
