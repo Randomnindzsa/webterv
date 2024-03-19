@@ -1,0 +1,55 @@
+Body{
+	background-color: #add8e6;
+}
+
+.banner {
+    height: fit-content;
+    padding: 10% 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 4px solid black;
+}
+
+.banner a{
+	text-color: red;
+	size: 36;
+    transition: all 0.3s ease;
+}
+
+
+.banner > h1 {
+    animation: come-in-left 1s ease forwards;
+    text-align: center;
+}
+
+.alt_info {
+    height: fit-content;
+    padding: 5% 0px;
+}
+
+.alt_info > .tartalom {
+    display: flex;
+    flex-direction: column;
+
+    animation: come-in-right 1s ease 1s forwards;
+}
+
+/* Video */
+.video_tartalom {
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 5% 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    animation: come-in-right 1s ease 1s forwards;
+}
+
+video {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+}

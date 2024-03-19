@@ -1,4 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: MS Gothic;     ;
+}
 
+:root {
+    --background-color: #add8e6;
+}
+
+/* Default classes */
+img {
+    width: 30%;
+
+    border: 5px hidden;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    color: rgb(230, 149, 92);
+}
+
+li {
+    list-style-type: none ;
+}
+
+.tartalom {
+    margin: 0px 60px;
+    overflow: hidden;
+}
+
+
+/* NavBar */
 nav li a{
     color: red;
 	size: 36ptx;
@@ -33,4 +70,22 @@ nav {
    border-bottom: 4px solid black;
 
    z-index: 100;
+}
+
+footer {
+    background-color: white;
+    border-top: 4px solid black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+footer > ul {
+    margin: 20px;
+    display: flex;
+}
+
+footer > ul > li {
+    flex-direction: row;
+    padding-right: 10%;
 }
