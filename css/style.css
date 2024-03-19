@@ -1,10 +1,36 @@
-header td {
-    border: 1px solid #000000;
-    font-size: large;
+
+nav li a{
+    color: red;
+	size: 36ptx;
+    transition: all 0.3s ease;
+    padding-bottom: 10px;
+    border: 4px hidden none;
+	background-color: #add8e6;
 }
 
-header table{
-	margin: 0 auto;               
-    caption-side: bottom;      
 
+nav ul{
+	margin: 0 auto; 
+    display: flex;
+    justify-content: space-evenly; 
+    width: 70%;
+	
+}
+
+nav {
+   position: fixed;
+   width: 100%; 
+   height: fit-content;
+   display: flex;
+
+   padding: 1.5% 0px;
+
+   align-items: center;
+   justify-content: center;
+
+	background-image: url("../media/uszosav.jpg");
+	background-color: #add8e6;
+   border-bottom: 4px solid black;
+
+   z-index: 100;
 }
