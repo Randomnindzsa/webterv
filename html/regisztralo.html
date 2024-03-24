@@ -3,7 +3,7 @@
   <head>
 	<meta charset="UTF-8">
     <title>Index</title>
-	<link rel="stylesheet" href="..\css\style.css">
+	<link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
   <nav>
@@ -17,5 +17,45 @@
 		<li><a href="admin.html">Admin felület</a></li>
 	</ul>
 	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	  <div class="regisztracio">
+    <h2> Regisztráció </h2>
+
+    <form method="POST">
+      <fieldset>
+        <label for="full-name">Felasználó név:</label>
+        <input  type="text" id="full-name" name="full-name" placeholder="Teljes név..."/> <br/><br/>
+        <label for="user-id">Felhasználói név:</label>
+        <input required type="text" id="user-id" name="user-id" placeholder="Felhasználónév..." /> <br/><br/>
+        <label for="email">E-mail cím:</label>
+        <input required type="email" id="email" name="email" placeholder="Email..."/> <br/><br/>
+        <label for="passwd">Jelszó:</label>
+        <input required type="password" id="passwd" name="passwd" placeholder="Jelszó..."/> <br/><br/>
+        <label for="passwd">Jelszó újra:</label>
+        <input required type="password" id="passwdagin" name="passwdagin" placeholder="Jelszó..."/> <br/><br/>
+      <input type="reset"/>
+      </fieldset>
+      A lakhelyed:
+      <select name="lakhely">
+        <option value="szeged" selected>Szeged</option>
+        <option value="csongrad" >Csongrád megyei lakcím</option>
+        <option value="pest">Pest</option>
+        <option value="other">Más</option>
+      </select>
+
+      <input name="submit" type="submit"/>
+	  </form>
+	  </div>
+	    <footer>
+<ul>
+	<li> <a href="https://www.facebook.com/vidrauszoda" target="_blank"> Facebook </a> </li>
+	<li> <a href="https://www.instagram.com/vidrauszoda" target="_blank"> Instagram </a> </li>	
+</ul>
+</footer>
   </body>
 </html>
