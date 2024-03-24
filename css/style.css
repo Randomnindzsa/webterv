@@ -66,7 +66,10 @@ nav {
    justify-content: center;
 
 	background-image: url("../media/uszosav.jpg");
-	background-color: #add8e6;
+	background-position: center;
+	background-repeat: space;
+
+	background-color: black;
    border-bottom: 4px solid black;
 
    z-index: 100;
